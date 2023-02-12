@@ -5,13 +5,13 @@ import java.util.ArrayList;
 import br.com.bytebank.banco.modelo.Conta;
 import br.com.bytebank.banco.modelo.ContaCorrente;
 
-public class Teste {
+public class TesteArrayEqualsEList2 {
 
 	public static void main(String[] args) {
 
 		// Generics
 		// ArrayList<String> nomes = new ArrayList<String>();
-		
+
 		ArrayList<Conta> lista = new ArrayList<Conta>();
 
 		Conta cc = new ContaCorrente(100, 111);
@@ -20,23 +20,11 @@ public class Teste {
 		Conta cc2 = new ContaCorrente(100, 222);
 		lista.add(cc2);
 
-		System.out.println("Tamanho: " + lista.size());
-		Conta ref = lista.get(0);
-		System.out.println(ref.getNumero());
-		lista.remove(0);
+		Conta cc3 = new ContaCorrente(100, 222);
+		boolean existe = lista.contains(cc3);
+		
+		System.out.println("Já existe? " + existe);
 
-		Conta cc3 = new ContaCorrente(100, 333);
-		lista.add(cc3);
-
-		Conta cc4 = new ContaCorrente(100, 444);
-		lista.add(cc4);
-
-		for (int i = 0; i < lista.size(); i++) {
-			Object oRef = lista.get(i);
-			System.out.println(oRef);
-		}
-
-		System.out.println("-----------------------------------------");
 
 		for (Conta conta : lista) {
 			System.out.println(conta);
