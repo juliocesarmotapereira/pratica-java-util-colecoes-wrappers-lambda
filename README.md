@@ -11,4 +11,5 @@ Material de estudos práticos do Programa ONE da Oracle
 * Type Cast: conversão de um tipo para outro.
 * Cast explícito e implícito.
 * ClassCastException: é um unchecked pois estende RuntimeException.
-* 
+* ArrayList: guarda referências, é do pacote java.util, usa internamente um array, é um array dinâmico.
+* java.util.ArrayList: é um guardador de referências e usa um array internamente, o único limite é a memória da JVM, encapsula o uso do array e oferece vários métodos de mais alto nível.
