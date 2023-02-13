@@ -23,14 +23,14 @@ public class TesteArrayEqualsEList3 {
 		Conta cc3 = new ContaCorrente(100, 222);
 
 		boolean existe = lista.contains(cc3);
-		
+
 		System.out.println("Já existe? " + existe);
 
 		for (Conta conta : lista) {
-			if (conta.ehIgual(cc3)) {
-				System.out.println("Já tenho essa conta!");
-			}
+			// if (conta.ehIgual(cc3)) {
+			System.out.println("Já tenho essa conta!");
 		}
+		// }
 
 		for (Conta conta : lista) {
 			System.out.println(conta);

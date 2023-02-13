@@ -28,3 +28,9 @@ Material de estudos práticos do Programa ONE da Oracle
 * java.util.Set também são coleções, mas não aceitam duplicados nem são listas.
 * java.util.Map
 
+* Tipo primito int > Autoboxing > para objeto java.lang.Integer.
+* TIpo objeto java.lang.Interger > Unboxing > para o tipo primitivo
+* Wrapper: são classes que contém funcionalidades e encapsulam a variável de tipo primitivo.
+* A criação do objeto Wrapper é chamada de autoboxing. 
+* A retirada do valor primitivo do objeto Wrapper é chamada de unboxing.
+

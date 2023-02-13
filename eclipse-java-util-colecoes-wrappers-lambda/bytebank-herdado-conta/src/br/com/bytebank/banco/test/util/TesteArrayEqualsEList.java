@@ -11,8 +11,8 @@ public class TesteArrayEqualsEList {
 
 		Conta cc1 = new ContaCorrente(100, 111);
 		Conta cc2 = new ContaCorrente(100, 111);
-		
-		boolean igual = cc1.ehIgual(cc2);
-		System.out.println(igual);
+
+		// boolean igual = cc1.ehIgual(cc2);
+		// System.out.println(igual);
 	}
 }
