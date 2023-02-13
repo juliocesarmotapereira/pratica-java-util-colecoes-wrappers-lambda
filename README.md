@@ -34,3 +34,9 @@ Material de estudos práticos do Programa ONE da Oracle
 * A criação do objeto Wrapper é chamada de autoboxing. 
 * A retirada do valor primitivo do objeto Wrapper é chamada de unboxing.
 
+* Source > Organize Imports ou Ctrl+Shift+O
+* Interfaces para definir o critério de ordenação dos elementos de uma lista: java.util.Comparator e java.lang.Comparable
+* Ordem natural: é a ordem definida pelo próprio elemento da lista.
+* Ordenar: Arrays, Listas, String, Natural.
+
+
