@@ -19,4 +19,12 @@ Material de estudos práticos do Programa ONE da Oracle
 * Métodos equals, toString e hashCode existem para sobrescrita.
 * Pacote java.util: List é uma interface, a ArrayList e a LinkedList são implementações, todas as listas garantem a ordem de inserção e possuem um índice.
 * A classe java.util.Arrays possui vários métodos estáticos auxiliares para trabalhar com arrays.
-* java.util.LinkedList, ArrayList, LinkedList, java.util.List 
+* java.util.LinkedList, ArrayList, LinkedList, java.util.List
+
+* java.util.Vector é uma ArrayList thread safe.
+* Vector: threadsafe, usa um array por baixo, é uma lista.
+* java.util.Collection é a interface de todas as coleções.
+* Pacote java.util (API de Collections)
+* java.util.Set também são coleções, mas não aceitam duplicados nem são listas.
+* java.util.Map
+
