@@ -31,7 +31,7 @@ Material de estudos práticos do Programa ONE da Oracle
 * Tipo primito int > Autoboxing > para objeto java.lang.Integer.
 * TIpo objeto java.lang.Interger > Unboxing > para o tipo primitivo
 * Wrapper: são classes que contém funcionalidades e encapsulam a variável de tipo primitivo.
-* A criação do objeto Wrapper é chamada de autoboxing. 
+* A criação do objeto Wrapper é chamada de autoboxing.
 * A retirada do valor primitivo do objeto Wrapper é chamada de unboxing.
 
 * Source > Organize Imports ou Ctrl+Shift+O
@@ -39,4 +39,7 @@ Material de estudos práticos do Programa ONE da Oracle
 * Ordem natural: é a ordem definida pelo próprio elemento da lista.
 * Ordenar: Arrays, Listas, String, Natural.
 
-
+* Método sort() recebe um critério de comparação, que é definido por meio de uma interface com um único método.
+* Function Object: encapsula uma função/método/procedimento
+* Lambdas: nomes.forEach((nome) -> System.out.println(nome));
+* Iterator: é um objeto que possui no mínimo dois métodos: hasNext()e next().
